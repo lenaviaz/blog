@@ -1,0 +1,15 @@
+[
+    {
+        "title": "post 1",
+        "summary": "post 1.",
+        "url": "posts/post1.html",
+        "tags": ["JavaScript", "Web Development"]
+    },
+    {
+        "title": "Post 2 Title",
+        "summary": "This is a summary of the second post.",
+        "url": "posts/post2.html",
+        "tags": ["CSS", "Design"]
+    }
+]
+
