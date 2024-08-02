@@ -6,10 +6,9 @@ body {
 }
 
 header {
-    background: #70b1dd;
-    color: #3f3d3d;
+    background: #333;
+    color: #fff;
     padding: 1em 0;
-    
     text-align: center;
 }
 
@@ -22,6 +21,11 @@ main {
     padding: 1em 0;
 }
 
+.post-summary h1 {
+    font-size: 20px;
+    margin: 0.5em 0 0;
+}
+
 .post-summary h2 {
     margin: 0;
 }
@@ -29,3 +33,20 @@ main {
 .post-summary p {
     margin: 0.5em 0 0;
 }
+
+.post-summary a {
+    font-size: 20px;
+}
+
+.tag-section {
+    margin-bottom: 1em;
+}
+
+.tag-section h2 {
+    color: #333;
+}
+
+.tag-section .post-summary {
+    margin: 0.5em 0;
+}
+
