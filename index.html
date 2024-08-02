@@ -1,9 +1,44 @@
  <!DOCTYPE html>
 <html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<script>
+    function toggleDropdown(id) {
+        var dropdown = document.getElementById(id);
+        if (dropdown.style.display === "block") {
+            dropdown.style.display = "none";
+        } else {
+            dropdown.style.display = "block";
+        }
+    }
+</script>
 
+<div class="sidenav">
+    <div class="year" onclick="toggleDropdown('dropdown-2024')">
+        2024
+        <div class="dropdown" id="dropdown-2024">
+            <a href="#link1">Link 1</a>
+            <a href="#link2">Link 2</a>
+            <a href="#link3">Link 3</a>
+        </div>
+    </div>
+    <a href="#">2024</a>
+    <a href="#">2023</a>
+    <a href="#">2022</a>
+    <a href="#">2021</a>
+</div>
+<!-- Page content -->
+<div class="main">
+<h1> Installing Lineage on a Google Pixel 4</h1>
+<p> August 1 2024.</p>
+
+<p> Experimenting with lineageOS! I heard about lineageOS as a great way to
+breath life back into old android devices, so I thought I would experient 
+with installing it on a google pixel 4 and test it out for some time as my
+daily driver </p>
+</div>
 </body>
 </html> 
