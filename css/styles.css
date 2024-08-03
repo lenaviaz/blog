@@ -12,8 +12,24 @@ header {
     text-align: center;
 }
 
-main {
+.right-panel {
+    width: 40%; /* Reduce the width to make space for the margin */
+    margin-left: 2em; /* Add left margin to move the right panel further to the right */
     padding: 1em;
+    background: #f4f4f4;
+}
+
+
+.content {
+    display: flex;
+    margin-top: 1em; /* Add some space below the header */
+    padding: 1em;
+}
+
+main {
+    flex: 1;
+    padding: 1em;
+    margin-right: 1em; /* Add space to the right of the main content */
 }
 
 .post-summary {
