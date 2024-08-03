@@ -1,12 +1,8 @@
-# Tring out LineageOS
-There are a few options for buying and setting up your cell phone. The first is signing up for a cell service like AT&T or TMobile and going to one of their stores and asking for a phone. They'll give you a SIM card (thing that has your number) and you get to pick from their inventory what phone you want. Another option is taking your SIM card and getting a carrier unlocked phone. This means the phone will work with any cell service and you are generally responsible for maintaining the phone. My cell service is Mint Mobile so I've been using a Motorola g7 play
+# I installed LineageOS on a 2019 Google Pixel 4
+LineageOS is an open-source operating system derived from the Android Open Source Project (AOSP). AOSP is an operating system maintained by Google, and Android is essentially AOSP with added proprietary software from Google, such as the Google Play Store and Google Chrome. LineageOS builds on the AOSP core, incorporating its own unique features 
 
-Specs:
-blah
-blah
-
-## First Section
-This will result in an H2 tag. You can have multiple of these
+## Reduction in EWaste
+LineageOS also supports over 190 devices, many that no longer recieve updates from their manufactorer. This is a huge plus because many devices still stuck on Android 12 and below have perfectly working hardware. Lineage can make new versions run on those 'outdated' devices. Many of us would rather hold on to our phones until they drop dead without worrying about running a phone that no longer gets security updates. 
 
 ### Subsection
 These create H3 tags, and so on.
