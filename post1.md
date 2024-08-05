@@ -1,19 +1,36 @@
 # I installed LineageOS on a 2019 Google Pixel 4
-LineageOS is an open-source operating system derived from the Android Open Source Project (AOSP). AOSP is an operating system maintained by Google, and Android is essentially AOSP with added proprietary software from Google, such as the Google Play Store and Google Chrome. LineageOS builds on the AOSP core, incorporating its own unique features 
+LineageOS is an open-source operating system derived from the Android Open Source Project (AOSP). AOSP is an operating system maintained by Google, and Android is essentially AOSP with added proprietary software from Google, such as the Google Play Store and Google Chrome. LineageOS builds on the AOSP core, incorporating its own unique features. 
 
-## Reduction in e-aste
-LineageOS supports over 190 devices, many that no longer recieve updates from their manufactorer. This is a huge plus because many devices still stuck on Android 12 and below have perfectly working hardware. Lineage can make new versions run on those 'outdated' devices. Many of us would rather hold on to our phones until they drop dead without worrying about running a phone that no longer gets security updates. 
+LineageOS is a fork of CyanogenMod (which shut down in December 2016) and continued their initiative for an open source alternative to Android OS.
 
-### Google Pixel 4 specs
-The criteria I had in mind for my next phone was:  
-    * Small screen size, < 6 inches  
-    * High performance CPU  
-    * Minimum 4gb ram  
-    * New, not used or refurbished  
-Non-Priorities:  
-    * Storage space, I didn't need more than  64 gb  
-    * Finger print reader  
-    * Camera quality  
+## Reduction in e-waste
+LineageOS brings the latest version of AOSP and security updates to over 190 devices, many that no longer recieve updates from their manufactorer. Statistis show the average person upgrades their phone every 2.7 years, with some upgrading every year. According to e artile, 5 billion smart phones became e-waste in 2022. This isn't too shocking since smart phones have been the standard since around 2010 and there are 7 billion people in the world, and by the end of 2023 70% of the global population owned one. However, that's still a lot of phones taking up space in desk drawers and landfills. 
+
+It makes sense why people choose to upgrade their smartphones when they stop recieving security updates and the warrenty expires. But for those of us who don't mind tinkering with our phones, take extra security meatures, and go the extra mile on device care, LineageOS can breath life back into a forgotten device. 
+
+## The installation process
+Installing lineageOS was suprisingly simple! The LineageOS website has links to each device it supports and the files needed to install on the phone. 
+
+*link to setting adb*
+*link to install steps from their website*
+
+## Installing Google Apps
+By default, LineageOS doesn't ship with Google services for licensing reasons. During the installation process, you can add the Gapps package which will enable things like the google play store, google data transfer, google photos, etc. 
+
+I opted to not add the Gapps package. I don't need to be logged into my email on my phone since I have my laptop accessable to me almost all the time. I don't need Google Photos to move pictures between my PC and my phone since I just transfer data using a usb cable. Instead of Google authenticator I set up *aegis authenticator*. All my contacts are saved in a .vcf file on my computer that I can transfer to new devices. There are a few apps I need on my phone from the GooglePlay store like Charge point, but I was able to install that on my phone through the Aurora store. I moved some music files from my PC to my phone for when I'm driving or at the gym, so I don't need to install spotify or any music streaming apps. Instead of youtube I use NewPipe, a free open source youtube client (which has extra perks like no ads and still runs when the app is minimized!). 
+
+The point is, with a little extra effort there are ways to have a fully functional smart phone without Google's services. 
+
+## My experience after a few days
+My favorite thing about my new phone set up is how fast it is! This is largly due to the Google Pixel 4 is already expected to be high performance with its Qualcomm Snapdragon 855 CPU and 90Hz display. However, the UI feels clean and zippy with web pages loading instantly. Without Google's services running on the phone at all times it definitely takes the load off the CPU. The battery life is pretty good despite the phone's tiny 2800 mAh, lasting well throughout the day. Not having a headphone jack isn't ideal, but I've been using an $8 usb-c to aux adaptor with no issues. 
+
+
+
+
+
+
+
+
 
 
 
